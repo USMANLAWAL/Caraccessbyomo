@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caraccessoriesbyomo</title>
+<link rel="icon"  href="omos.jpeg">
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- link file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+
+        <nav>
+            <div class="logo">
+                <img src="omo.png">
+            </div>
+
+            <ul>
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="div-text">
+                <span>Accessories of the week</span>
+                <h3>all your</h3>
+                <h1>Car Accessories are here</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                    Doloremque unde sunt eum illum ab tempora illo iure sequi <br> minus culpa.</p>
+                    <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="div-img">
+                <img id="big-img" src="ha.png" alt="">
+            </div>
+
+            <div class="small-img">
+                <img onclick="myTshirt(this.src)" src="ha.png" alt="">
+                <img onclick="myTshirt(this.src)" src="co.png" alt="">
+                <img onclick="myTshirt(this.src)" src="airs (1).png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let bigImage = document.getElementById('big-img');
+
+        function myTshirt(shirt){
+            bigImage.src = shirt
+        }
+    </script>
+</body>
+</html>
